@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>devopswithsandy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">DevOps World</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo"> Sandy Krishna</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                <li><a href="#blogs" onclick="toggleMenu()">Blogs</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+        <img src="/assets/profile-pic.png" alt="myprofile">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello I'm <br /></p>
+            <h2> Senthamizhselvan Krishnamoorthy</h2>
+            <p class="section__text__p1">Call me</p>
+            <h2 class="title"> Sandy </h2>
+            <p class="section__text__p2">DevOps Engineer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/SenthamizhCV.pdf')"> Download
+                    CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'"> Contact Info</button>
+            </div>
+            <div id="social-container">
+                <img src="./assets/linkedin.png" alt="My linkedin profile" class="icon"
+                    onclick="location.href='https://www.linkedin.com/in/sandy-ai/'" />
+                <img src="./assets/github.png" alt="My Github Profile" class="icon"
+                    onclick="location.href='https://github.com/sandykrishnadevops'" />
+            </div>
+        </div>
+    </section>
+    <section id="about"> 
+        <p class="section__text__p1"> Get To Know More</p>
+        <h1 class="title"> About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img 
+                    src="./assets/about-pic.png"
+                    alt="Profile picture"
+                    class="about-pic" />
+            </div>
+            <div class="'about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="Experience icon"
+                        class="icon"
+                        />
+                        <h3>Experience</h3>
+                        <p>3+ years<br />DevOps Engineering</p>
+                    </div>
+                    <div class="details-container">
+                        <img 
+                        src="./assets/education.png"
+                        alt="Education icon"
+                        class="icon" />
+                        <h3>Education</h3>
+                        <p> M.Sc. Artificial Intelligence and Robotics<br /> B.E. Mechanical Engineering</p>  
+                    </div>
+                </div>
+                <div class="text-container">
+                <p>A passionate and skilled DevOps, SRE, and Cloud Engineer with a strong background in infrastructure provisioning, automation, and monitoring. I have completed and been certified by HashiCorp for Terraform Associate(003) and AWS for AWS Certified Cloud Practitioner.
+                Have experience working with tools such as Gitlab, Terraform, and Ansible to streamline development processes and ensure efficient code deployment. Proficient in managing and monitoring cloud infrastructure services on AWS and Azure, as well as maintaining high availability in Kubernetes-based container clusters. Successfully implemented monitoring and logging tools like ELK, Grafana, and Datadog to ensure comprehensive visibility into system performance and implemented GitOps for managing infrastructure as code.
+                My expertise also includes integrating automation testing into the CI/CD pipeline and developing scripts to automate tasks, improving efficiency and reducing manual effort.
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
+        onclick=" location.href='./#experience'">
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore my</p>
+        <h1 class="title">Skills</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <div class="article-container">
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt=" Experience icon"
+                                class="icon"
+                            />
+                            <div>
+                                <h3>CI Tools: </h3>
+                                <p>Gitlab, Jenkins, Bamboo</p>
+                            </div>
+                            <div>
+                                <h3>Infrastructure, Configuration Management: </h3>
+                                <p>Terraform, Ansible, CloudFormation</p>
+                            </div>
+                            <div>
+                                <h3>Scripting</h3>
+                                <p>Python, Bash</p>
+                            </div>
+                            <div>
+                                <h3>Monitoring & Logging</h3>
+                                <p>ELK, Grafana</p>
+                            </div>
+                            <div>
+                                <h3>Cloud Platform</h3>
+                                <p>AWS, Azure</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <div class="article-container">
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt=" Experience icon"
+                                class="icon"
+                            />
+                            <div>
+                                <h3>Container Technologies:</h3>
+                                <p>Kubernetes, Docker, Docker Swarm</p>
+                            </div>
+                            <div>
+                                <h3>Machine Learning</h3>
+                                <p>Python, Pyspark, NLP, Classification, Clustering, Deep learning</p>
+                            </div>
+                            <div>
+                                <h3>Development</h3>
+                                <p>Javascript, Nodejs</p>
+                            </div>
+                            <div>
+                                <h3>DevOps Tools</h3>
+                                <p>Git, Artifactory, Jira, Maven, Nexus, ArgoCD, Helm</p>
+                            </div>
+                            <div>
+                                <h3>Databases</h3>
+                                <p>MySQL, PostgresSQL, MongoDB, Redis</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
