@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>devopswithsandy</title>
+    <title>SandyDevopsWorld</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
 </head>
@@ -15,15 +15,16 @@
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#blog">Blog</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="#blogs">Blogs</a></li>
             </ul>
         </div>
     </nav>
     <nav id="hamburger-nav">
-        <div class="logo"> Sandy Krishna</div>
+        <div class="logo">Sandy Krishna</div>
         <div class="hamburger-menu">
             <div class="hamburger-icon" onclick="toggleMenu()">
                 <span></span>
@@ -32,10 +33,11 @@
             </div>
             <div class="menu-links">
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
                 <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
                 <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
                 <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-                <li><a href="#blogs" onclick="toggleMenu()">Blogs</a></li>
+                <li><a href="#blog" onclick="toggleMenu()">Blog</a></li>
             </div>
         </div>
     </nav>
@@ -58,24 +60,29 @@
                 <img src="./assets/linkedin.png" alt="My linkedin profile" class="icon"
                     onclick="location.href='https://www.linkedin.com/in/sandy-ai/'" />
                 <img src="./assets/github.png" alt="My Github Profile" class="icon"
-                    onclick="location.href='https://github.com/sandykrishnadevops'" />
+                    onclick="location.href='https://github.com/sandy-ai-arch'" />
+                <img src="./assets/flag.png" alt="journey of my life" class="icon"
+                    onclick="location.href='https://journey.com/'" />
+                <img src="./assets/instagram.png" alt="Instagram" class="icon"
+                    onclick="location.href='https://www.instagram.com/mastermind1998/'" />
+
             </div>
         </div>
     </section>
     <section id="about"> 
-        <p class="section__text__p1"> Get To Know More</p>
-        <h1 class="title"> About Me</h1>
+        <h1 class="title">About Me</h1>
         <div class="section-container">
             <div class="section__pic-container">
                 <img 
                     src="./assets/about-pic.png"
                     alt="Profile picture"
-                    class="about-pic" />
+                    class="about-pic"
+                    />
             </div>
             <div class="'about-details-container">
                 <div class="about-containers">
                     <div class="details-container">
-                        <img src="./assets/experience.png" alt="Experience icon"
+                        <img src="./assets/experience1.png" alt="Experience icon"
                         class="icon"
                         />
                         <h3>Experience</h3>
@@ -97,73 +104,263 @@
             </div>
         </div>
         <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
-        onclick=" location.href='./#experience'">
+        onclick="location.href='./#whatiamdoing'">
     </section>
-    <section id="experience">
-        <p class="section__text__p1">Explore my</p>
-        <h1 class="title">Skills</h1>
+    <section id="whatiamdoing">
+    <h1 class="title"> What I am doing</h1>
+    <div class="'about-details-container">
+        <div class="about-containers">
+            <div class="whatiamdoing-container">
+                <img src="./assets/devops.png" alt="Experience icon"
+                class="icon"
+                />
+                <h3>DevOps</h3>
+                <p>I really enjoy integrating the development (Dev) and operations (Ops), embodying a culture of collaboration, automation, and continuous improvement within software development and IT operations. It's about breaking down silos between development and operations teams to streamline the entire software delivery lifecycle. By automating processes, implementing infrastructure as code, and fostering a culture of shared responsibility</p>
+            </div>
+            <div class="whatiamdoing-container">
+                <img 
+                src="./assets/cloud.png"
+                alt="Education icon"
+                class="icon" />
+                <h3>Cloud Engineer</h3>
+                <p>I specialize in designing, implementing, and managing cloud infrastructure and services to support the digital transformation and scalability needs of modern businesses. My role revolves around leveraging cloud computing technologies such as Amazon Web Services (AWS), Microsoft Azure, or Google Cloud Platform to architect robust, scalable, and cost-effective solutions tailored to specific business requirements. </p>  
+            </div>
+        </div>
+        <div class="'about-details-container">
+            <div class="about-containers">
+                <div class="whatiamdoing-container">
+                    <img src="./assets/sre.png" alt="Experience icon"
+                    class="icon"
+                    />
+                    <h3>SRE</h3>
+                    <p>My focus lies at the intersection of software engineering and IT operations, with a primary goal of ensuring the reliability, scalability, and performance of mission-critical systems and services. I work proactively to prevent outages and optimize system performance through automation, monitoring, and incident response practices.</p>
+                </div>
+                <div class="whatiamdoing-container">
+                    <img 
+                    src="./assets/softwaredevelopment.png"
+                    alt="Education icon"
+                    class="icon" />
+                    <h3>Software Development</h3>
+                    <p>I design, code, test, and refine to ensure the final product meets the needs of its users. It's a dynamic field where we need continuous learning and adaptation to emerging technologies play a crucial role in driving progress. Through software development, I contribute to shaping the digital landscape, driving innovation, and making a meaningful impact in the world of technology.<br /></p>  
+                </div>
+            </div>
+            <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
+            onclick="location.href='./#skills'" style="float: right">
+    </section>
+    <section id="skills" style="text-align: center, ">
+        <h2 class="title">Cloud Native DevOps Skills</h2>
         <div class="experience-details-container">
             <div class="about-containers">
                 <div class="details-container">
+                    <h3 class="skills_sub_title"><img 
+                        src="./assets/experience.png" 
+                        alt=" Experience icon"
+                        style="position:relative"
+                        class="icon" />App Definition & Development </h3>
                     <div class="article-container">
                         <article>
-                            <img 
-                                src="./assets/checkmark.png" 
-                                alt=" Experience icon"
-                                class="icon"
-                            />
                             <div>
-                                <h3>CI Tools: </h3>
-                                <p>Gitlab, Jenkins, Bamboo</p>
+                                <h4>Database</h4>
+                                <p><ul style="padding-left:20px"> 
+                                    <li>Redis</li>
+                                    <li>MariaDB</li>
+                                    <li>MySQL </li>
+                                   <li> MongoDB </li>
+                                   <li> PostgreSQL </li>
+                                </ul></p>
                             </div>
                             <div>
-                                <h3>Infrastructure, Configuration Management: </h3>
-                                <p>Terraform, Ansible, CloudFormation</p>
+                                <h4>Application Definition & Image Build</h4>
+                                <p><ul style="padding-left:20px"> 
+                                    <li>Helm</li>
+                                    <li> Bitnami Stacksmith</li>
+                                </ul></p>
                             </div>
                             <div>
-                                <h3>Scripting</h3>
-                                <p>Python, Bash</p>
-                            </div>
-                            <div>
-                                <h3>Monitoring & Logging</h3>
-                                <p>ELK, Grafana</p>
-                            </div>
-                            <div>
-                                <h3>Cloud Platform</h3>
-                                <p>AWS, Azure</p>
+                                <h4>Continuous Integration & Delivery</h4>
+                                <p><ul style="padding-left:20px"> 
+                                    <li>Gitlab</li>
+                                </ul></p>
                             </div>
                         </article>
                     </div>
                 </div>
                 <div class="details-container">
+                    <h3 class="skills_sub_title"><img 
+                        src="./assets/experience.png  " 
+                        alt=" Experience icon"
+                        style="position:relative"
+                        class="icon" /> Oreshestration & Management</h3>
                     <div class="article-container">
                         <article>
-                            <img 
-                                src="./assets/checkmark.png" 
-                                alt=" Experience icon"
-                                class="icon"
-                            />
                             <div>
-                                <h3>Container Technologies:</h3>
-                                <p>Kubernetes, Docker, Docker Swarm</p>
+                            <h4>Scheduling & Orchestration</h4>
+                            <p><ul style="padding-left:20px"> 
+                                <li>Kubernetes</li>
+                            </ul></p></div>
+                            <div><h4>Coordination & Service Discovery</h4>
+                            <p><ul style="padding-left:20px"> 
+                                <li>CoreDNS</li>
+                                <li>Ectd</li>
+                            </ul></p></div>
+                            <div><h4>Service Proxy</h4>
+                                <p><ul style="padding-left:20px"> 
+                                    <li>Nginx</li>
+                                    <li>Traefik</li>
+                                    <li>HAproxy</li>
+                                    <li>MetalLB</li>
+                                </ul></p></div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h3 class="skills_sub_title"><img 
+                        src="./assets/experience.png" 
+                        alt=" Experience icon"
+                        style="position:relative"
+                        class="icon"/> Observability & Analysis  </h3>
+                    <div class="article-container">
+                        <article>
+                            <div>
+                            <h4>Monitoring</h4>
+                            <p><ul style="padding-left:20px"> 
+                                <li>Prometheus</li>
+                                <li>Grafana</li>
+                                <li>Thanos</li>
+                            </ul></p></div>
+                            <div><h4>Logging</h4>
+                            <p><ul style="padding-left:20px"> 
+                                <li>Elastic <br /> (Elatic search & Kibana)</li>
+                                <li>Grafana Loki</li>
+                                <li>FluentD</li>
+                            </ul></p></div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h3 class="skills_sub_title"><img 
+                        src="./assets/experience.png" 
+                        alt=" Experience icon"
+                        style="position:relative"
+                        class="icon" />Platform </h3>
+                    <div class="article-container">
+                        <article>
+                            <div>
+                                <h4></h4>
+                                <p><ul style="padding-left:20px"> 
+                                    <li>Redis</li>
+                                    <li>MariaDB</li>
+                                    <li>MySQL </li>
+                                   <li> MongoDB </li>
+                                   <li> PostgreSQL</li>
+                                </ul></p>
                             </div>
                             <div>
-                                <h3>Machine Learning</h3>
-                                <p>Python, Pyspark, NLP, Classification, Clustering, Deep learning</p>
+                                <h4>Application Definition & Image Build</h4>
+                                <p><ul style="padding-left:20px"> 
+                                    <li>Helm</li>
+                                    <li> Bitnami Stacksmith</li>
+                                </ul></p>
                             </div>
                             <div>
-                                <h3>Development</h3>
-                                <p>Javascript, Nodejs</p>
-                            </div>
-                            <div>
-                                <h3>DevOps Tools</h3>
-                                <p>Git, Artifactory, Jira, Maven, Nexus, ArgoCD, Helm</p>
-                            </div>
-                            <div>
-                                <h3>Databases</h3>
-                                <p>MySQL, PostgresSQL, MongoDB, Redis</p>
+                                <h4>Continuous Integration & Delivery</h4>
+                                <p><ul style="padding-left:20px"> 
+                                    <li>Gitlab</li>
+                                </ul></p>
                             </div>
                         </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h3 class="skills_sub_title"><img 
+                        src="./assets/experience.png  " 
+                        alt=" Experience icon"
+                        style="position:relative"
+                        class="icon" /> Oreshestration & Management</h3>
+                    <div class="article-container">
+                        <article>
+                            <div>
+                            <h4>Scheduling & Orchestration</h4>
+                            <p><ul style="padding-left:20px"> 
+                                <li>Kubernetes</li>
+                            </ul></p></div>
+                            <div><h4>Coordination & Service Discovery</h4>
+                            <p><ul style="padding-left:20px"> 
+                                <li>CoreDNS</li>
+                                <li>Ectd</li>
+                            </ul></p></div>
+                            <div><h4>Service Proxy</h4>
+                                <p><ul style="padding-left:20px"> 
+                                    <li>Nginx</li>
+                                    <li>Traefik</li>
+                                    <li>HAproxy</li>
+                                    <li>MetalLB</li>
+                                </ul></p></div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h3 class="skills_sub_title"><img 
+                        src="./assets/experience.png" 
+                        alt=" Experience icon"
+                        style="position:relative"
+                        class="icon"/> Observability & Analysis  </h3>
+                    <div class="article-container">
+                        <article>
+                            <div>
+                            <h4>Monitoring</h4>
+                            <p><ul style="padding-left:20px"> 
+                                <li>Prometheus</li>
+                                <li>Grafana</li>
+                                <li>Thanos</li>
+                            </ul></p></div>
+                            <div><h4>Logging</h4>
+                            <p><ul style="padding-left:20px"> 
+                                <li>Elastic <br /> (Elatic search & Kibana)</li>
+                                <li>Grafana Loki</li>
+                                <li>FluentD</li>
+                            </ul></p></div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="skills_sub_title">Provisioning<img 
+                        src="./assets/checkmark.png" 
+                        alt=" Experience icon"
+                        style="position:absolute"
+                        class="icon"
+                        
+                    /></h2>
+                    <div class="article-container">
+                        <article>
+                            
+                            <div>
+                                <h4>Automation & Configuration</h4>
+                                <p>Terraform <br />
+                                    Ansible <br />
+                                    AWX – Non-CNCF <br />
+                                </p>
+                            </div>
+                            <div>
+                                <h4>Container Registry
+                                    </h4>
+                                <p>Harbor
+                                    <br />
+                                    GitLab Container Registry – Non-CNCF </p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            </article>
                     </div>
                 </div>
             </div>
